@@ -1,12 +1,13 @@
     body {
-      --primary-color: #004643;
-      --primary-color-transparent: #004643dd;
-      --secondary-color: #abd1c6;
-      --secondary-color-transparent: #abd1c6dd;
-      --tertiary-color: #f9bc60;
-      --tertiary-color-transparent: #f9bc60dd;
+      --primary-color: #191919;
+      --primary-color-transparent: #191919dd;
+      --secondary-color: #2D4263;
+      --secondary-color-transparent: #2D4263ee;
+      --tertiary-color: #fff;
+      --tertiary-color-transparent: #ffffffdd;
       --light-color: #fff;
-      --link-color: #f9bc60;
+      --light-color-transparent: #fff;
+      --link-color: #C84B31;
     }
 
     h1 {
@@ -38,13 +39,13 @@
 
     p
     {
-      color: var(--primary-color);
+      color: var(--tertiary-color);
       line-height: 1.3em;
       font-size: 1.2em;
       font-weight: 600;
     }
 
-    a{
+    a {
       text-decoration: none;
       color: var(--link-color);
     }
@@ -67,7 +68,7 @@
       
     .team-primary {
       background-color: var(--primary-color);
-      color: var(--light-color);
+      color: var(--tertiary-color);
     }
       .team-primary h2 {
         font-size: 3em;
@@ -75,29 +76,23 @@
         font-weight: 900;
         font-style: normal;
       }
+  
+      .team-primary p {
+        font-size: 1.3em;
+        font-weight: 600;
+        padding-top: 0.7em;
+      }
 
     .team-secondary {
       background-color: var(--secondary-color);
-      color: var(--primary-color);
-    }
-  
-    .team-primary p {
-      font-size: 1.3em;
-      font-weight: 600;
-      padding-top: 0.7em;
-      color: var(--secondary-color);
+      color: var(--tertiary-color);
     }
 
     .team-secondary  p {
-      color: var(--primary-color);
+      color: var(--tertiary-color);
       font-size: 1.3em;
       font-weight: 600;
       padding-top: 0.7em;
-    }
-
-    .team-secondary h3, 
-    .team-secondary h4{
-      color: var(--primary-color);
     }
 
     .team-secondary h3{
@@ -110,10 +105,12 @@
       font-size: 1.5em;
       font-weight: 900;
       padding-top: 0.7em;
+      color: var(--link-color);
     }
    
-    .team-tertiary {
-      background-color: var(--light-color);
+    .team-tertiary,
+    .team-tertiary p {
+      background-color: var(--tertiary-color);
       color: var(--primary-color);
     }
 
@@ -143,12 +140,12 @@
 
       .team-secondary a,
       .team-tertiary a {
-        color: var(--primary-color);
+        color: var(--tertiary-color);
         font-weight: 900;
       }
       .team-secondary a:hover,
       .team-tertiary a:hover {
-        color: var(--primary-color);
+        color: var(--tertiary-color);
         font-weight: 900;
       }
 
@@ -156,7 +153,7 @@
     .navbar,
     .jumbotron {
       background-color: var(--primary-color-transparent);
-      color: var(--light-color);
+      color: var(--tertiary-color);
       font-family: 'FS Elliot Pro';
       font-weight: bold;
       font-style: normal;
@@ -174,13 +171,11 @@
       text-decoration: none;
     }
 
-    .how{
-      padding: 2em;
-    }
 
     .card > a:hover {
       background-color: var(--secondary-color);
       text-decoration: none;
+      color: var(--tertiary-color);
     }
 
     footer,
@@ -214,6 +209,16 @@
         background: url("../images/AdobeStock_295726135.jpeg") no-repeat center ;
         background-size: cover;
     }
+  
+    .mission {
+        background: url("../images/AdobeStock_295726135.jpeg") no-repeat center ;
+        background-size: cover;
+    }
+  
+    .advice {
+        background: url("../images/AdobeStock_295726135.jpeg") no-repeat center ;
+        background-size: cover;
+    }
 
     .contact {
         background: url("../images/AdobeStock_143375235.jpeg") no-repeat center ;
@@ -233,6 +238,9 @@
     }
     .jumbotron-fluid > div.team-tertiary {
       background-color:var(--tertiary-color-transparent)
+    }
+    .jumbotron-fluid > div.pale {
+      background-color:var(----light-color-transparent)
     }
 
     .team-logo {
