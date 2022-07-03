@@ -1,0 +1,227 @@
+    body {
+      --primary-color: #004643;
+      --primary-color-transparent: #004643dd;
+      --secondary-color: #abd1c6;
+      --secondary-color-transparent: #abd1c6dd;
+      --tertiary-color: #f9bc60;
+      --tertiary-color-transparent: #f9bc60dd;
+      --light-color: #fff;
+      --link-color: #f9bc60;
+    }
+
+    h1 {
+      font-size: 3.6em;
+      font-family: 'FS Elliot Pro';
+      font-weight: 900;
+      font-style: normal;
+      padding-top:  0.9em;
+    }
+
+    h2 {
+      font-size: 1.5em;
+      font-family: 'FS Elliot Pro';
+      font-weight: bold;
+      font-style: normal;
+    }
+
+    body {
+      font-size: 1em;
+      font-family: 'FS Elliot Pro';
+      font-weight: 300;
+      font-style: normal;
+      line-height: 2;
+      text-transform: none;
+      min-height: 40px;
+      color: var(--light-color);
+      background-color: var(--secondary-color);
+    }
+
+    p
+    {
+      color: var(--primary-color);
+      line-height: 1.3em;
+      font-size: 1.2em;
+      font-weight: 600;
+    }
+
+    a{
+      text-decoration: none;
+      color: var(--link-color);
+    }
+    a:hover{
+      text-decoration: underline;
+      color: var(--link-color);
+    }
+
+    .team-primary
+    {      
+      padding-top: 6em;
+      padding-bottom:6em;
+    }
+
+    .team-secondary,
+    .team-tertiary {      
+      padding-top: 2em;
+      padding-bottom:3em;
+    }
+      
+    .team-primary {
+      background-color: var(--primary-color);
+      color: var(--light-color);
+    }
+      .team-primary h2 {
+        font-size: 3em;
+        font-family: 'FS Elliot Pro';
+        font-weight: 900;
+        font-style: normal;
+      }
+
+    .team-secondary {
+      background-color: var(--secondary-color);
+      color: var(--primary-color);
+    }
+  
+    .team-primary p {
+      font-size: 1.3em;
+      font-weight: 600;
+      padding-top: 0.7em;
+      color: var(--secondary-color);
+    }
+
+    .team-secondary  p {
+      color: var(--primary-color);
+      font-size: 1.3em;
+      font-weight: 600;
+      padding-top: 0.7em;
+    }
+
+    .team-secondary h3, 
+    .team-secondary h4{
+      color: var(--primary-color);
+    }
+
+    .team-secondary h3{
+      font-size: 2em;
+      font-weight: 900;
+      padding-top: 0.7em;
+    }
+
+    .team-secondary h4{
+      font-size: 1.5em;
+      font-weight: 900;
+      padding-top: 0.7em;
+    }
+   
+    .team-tertiary {
+      background-color: var(--light-color);
+      color: var(--primary-color);
+    }
+
+      .team-tertiary h2
+      {      
+        font-size: 3em;
+        font-weight: 900;
+        text-align: center;
+      }
+      
+      .team-tertiary h3
+      {      
+        font-size: 1.5em;
+        font-weight: 600;
+        text-align: center;
+        padding:1em;
+      }
+      
+      .team-tertiary h4
+      {      
+        font-size: 1.5em;
+        font-weight: 600;
+        padding-top: 0.7em;
+        text-align: center;
+        padding:1em;
+      }
+
+      .team-tertiary a {
+        color: var(--primary-color);
+      }
+      .team-tertiary a:hover {
+        color: var(--primary-color);
+      }
+
+      
+    .navbar,
+    .jumbotron {
+      background-color: var(--primary-color-transparent);
+      color: var(--light-color);
+      font-family: 'FS Elliot Pro';
+      font-weight: bold;
+      font-style: normal;
+    }
+
+    .navbar-nav > li > a{
+      text-shadow: none;
+      color: var(--light-color);
+      font-size: 1.5em;
+    }
+
+    .navbar-nav > li > a:hover{
+      text-shadow: none;
+      color: var(--light-color);
+      text-decoration: none;
+    }
+
+    .how{
+      padding: 2em;
+    }
+
+    .card > a:hover {
+      background-color: var(--secondary-color);
+      text-decoration: none;
+    }
+
+    footer,
+    .footer {
+      text-shadow: none;
+      text-align: center;
+      font-size: 1em;
+      line-height: 1.2em;
+      padding-bottom: 1em;
+      font-family: 'FS Elliot Pro';
+      font-weight: 600;
+      font-style: normal;
+    }
+    
+    .hero {
+        background: url("../images/AdobeStock_91648747.jpeg") no-repeat center ;
+        background-size: cover;
+    }
+
+    .faqs {
+        background: url("../images/dive-large.jfif") no-repeat center ;
+        background-size: cover;
+    }
+
+    .advice {
+        background: url("../images/AdobeStock_293677159.jpeg") no-repeat center ;
+        background-size: cover;
+    }
+  
+    .prices {
+        background: url("../images/AdobeStock_295726135.jpeg") no-repeat center ;
+        background-size: cover;
+    }
+
+    .contact {
+        background: url("../images/AdobeStock_143375235.jpeg") no-repeat center ;
+        background-size: cover;
+    }
+
+    .jumbotron-fluid > div.team-primary{
+      background-color:var(--primary-color-transparent)
+    }
+    .jumbotron-fluid > div.team-secondary{
+      background-color:var(--secondary-color-transparent)
+    }
+    .jumbotron-fluid > div.team-tertiary {
+      background-color:var(--tertiary-color-transparent)
+    }
