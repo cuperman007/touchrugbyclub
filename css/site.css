@@ -141,11 +141,15 @@
         padding:1em;
       }
 
+      .team-secondary a,
       .team-tertiary a {
         color: var(--primary-color);
+        font-weight: 900;
       }
+      .team-secondary a:hover,
       .team-tertiary a:hover {
         color: var(--primary-color);
+        font-weight: 900;
       }
 
       
@@ -192,7 +196,7 @@
     }
     
     .hero {
-        background: url("../images/AdobeStock_91648747.jpeg") no-repeat center ;
+        background: url("../images/AdobeStock_177731417.jpeg") no-repeat bottom ;
         background-size: cover;
     }
 
@@ -216,6 +220,11 @@
         background-size: cover;
     }
 
+    .teams {
+        background: url("../images/AdobeStock_143375235.jpeg") no-repeat center ;
+        background-size: cover;
+    }
+
     .jumbotron-fluid > div.team-primary{
       background-color:var(--primary-color-transparent)
     }
@@ -224,4 +233,8 @@
     }
     .jumbotron-fluid > div.team-tertiary {
       background-color:var(--tertiary-color-transparent)
+    }
+
+    .team-logo {
+      max-height: 100px;
     }
