@@ -112,6 +112,7 @@
     .team-tertiary p {
       background-color: var(--tertiary-color);
       color: var(--primary-color);
+      font-size: 1.2em;
     }
 
       .team-tertiary h2
@@ -140,13 +141,25 @@
 
       .team-secondary a,
       .team-tertiary a {
-        color: var(--tertiary-color);
         font-weight: 900;
       }
       .team-secondary a:hover,
       .team-tertiary a:hover {
-        color: var(--tertiary-color);
         font-weight: 900;
+      }
+
+      .team-secondary a {
+        color: var(--tertiary-color);
+      }
+      .team-secondary a:hover {
+        color: var(--tertiary-color);
+      }
+
+      .team-tertiary a {
+        color: var(--link-color);
+      }
+      .team-tertiary a:hover {
+        color: var(--link-color);
       }
 
       
